@@ -6,13 +6,12 @@
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.icon 🤖
-# @raycast.argument1 { "type": "text", "placeholder": "Placeholder" }
+# @raycast.icon 😯
+# @raycast.argument1 { "type": "text", "placeholder": "ONES搜索" }
 # @raycast.packageName ones
 
 # Documentation:
 # @raycast.author moli
 # @raycast.authorURL https://github.com/molizz
 
-echo "Hello World! Argument1 value:  "$1")"
-
+open "https://ones.ai/project/#/home/team/RDjYMhKq/search/project/task?searchText=${1}"
